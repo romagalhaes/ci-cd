@@ -4,9 +4,9 @@ metadata:
   name: "ci-cd"
   description: "Teste CICD"
   annotations:
-    # O Backstage usará isso para buscar as Actions
-    github.com/project-slug: romagalhaes/ci-cd
     backstage.io/techdocs-ref: dir:.
+    idp.mycompany.com/infrastructure-repository: "https://github.com/romagalhaes/ci-cd-infra"
+    idp.mycompany.com/infrastructure-entity-ref: "component:default/ci-cd-infra"
 spec:
   type: service
   owner: "group:default/guests"
